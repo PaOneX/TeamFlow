@@ -1,5 +1,5 @@
-import { auth } from "@/lib/auth";
-import { NextResponse } from "next/server";
+import NextAuth from "next-auth";
+import authConfig from "@/lib/auth.config";
 
 const publicRoutes = [
   "/",
